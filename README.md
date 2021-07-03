@@ -44,12 +44,11 @@ app/views/demos/index.html.erb
   window
     .mrujs
     .fetch("/cable_car_views", {headers: {"Accept": "text/vnd.cablecar.json"}})
-    .then(response => response.json()
-      .then(j => {
-        console.log(j)
-        CableReady.perform(j)
-      })
-    )
+    .then(response => response.json())
+    .then(j => {
+      console.log(j)
+      CableReady.perform(j)
+    })
 </script>
 
 ```
