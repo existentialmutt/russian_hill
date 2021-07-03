@@ -1,5 +1,5 @@
 # RussianHill
-Jbuilder-like views for CableReady's cable_car.  Registers a .cablecar template extension where you can build up operations to send in a response by calling e.g. `operations.morph`
+Jbuilder-like views for CableReady's cable_car.  Registers a .cablecar template extension and cablecar MIME type for a dedicated view you can use to build up operations to send in a response by calling e.g. `operations.morph`
 
 ![picture of SF cable car](russianhill.jpg)
 
