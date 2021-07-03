@@ -8,7 +8,7 @@ Jbuilder-like views for CableReady's cable_car.  Registers a .cablecar template 
 Example code:
 
 app/controllers/demos_controller.rb
-````ruby
+```ruby
 class DemosController < ApplicationController
 
   def index
@@ -19,7 +19,6 @@ class DemosController < ApplicationController
   end
 
 end
-
 ```
 
 app/views/demos/index.cablecar
@@ -34,7 +33,7 @@ operations.outer_html(selector: "#outer", html: render(partial: "message", forma
 
 
 app/views/demos/index.html.erb
-````html
+```html
 <div id="message"></div>
 
 <div id="inner"></div>
